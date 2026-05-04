@@ -105,9 +105,9 @@ def plot_pies(labels_secs, report_date, today_date, out_path):
         "Operations": 20,
         "Vacation": 17,
         "radar": 6,
-        "20m + RH8": 30,
+        "20m_RH8": 30,
         "python3": 20,
-        "20m Contractor": 8,
+        "20m_contractor": 8,
     }
     alloc_names = list(allocations.keys())
     alloc_values = list(allocations.values())
