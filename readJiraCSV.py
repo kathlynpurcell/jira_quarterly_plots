@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 # Workday length in hours (e.g. 9-3 M-F = 6h/day, 9-4 M-F = 7h/day, 9-5 M-F = 8h/day).
 # Change this single value to recompute the quarter and expected hours.
-HOURS_PER_DAY = 5
+HOURS_PER_DAY = 8
 
 
 def format_hours_as_work_time(hours, hours_per_day=None, days_per_week=5):
